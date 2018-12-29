@@ -1,0 +1,18 @@
+{
+    "rankList":[
+        {
+            "ranking":1,
+            "regionName":"宝安",
+            "tsd":"220",
+            "overproof":"12H",
+            "offLines":7
+        },
+        {
+            "ranking":2,
+            "regionName":"南山",
+            "tsd":"210",
+            "overproof":"12H",
+            "offLines":8
+        }
+    ]
+}

@@ -3,20 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.18.0",
+    "echarts": "^4.2.0-rc.2",
+    "vant": "^1.5.0",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-eslint": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "postcss-pxtorem": "^4.0.1",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
